@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">守護寵物</string>
+    <string name="main_title">🐱 守護寵物</string>
+    <string name="main_desc">你的手機守護者：自動掃描可疑 App、攔截詐騙電話、偵測詐騙簡訊，發現風險立刻告警。</string>
+    <string name="btn_overlay">1. 開啟懸浮權限</string>
+    <string name="btn_start">2. 派出守護貓</string>
+    <string name="btn_stop">3. 收起守護貓</string>
+    <string name="btn_call_screen">4. 設為來電篩選（擋詐騙電話）</string>
+    <string name="btn_call_screen_on">4. 設為來電篩選（擋詐騙電話）— 已啟用</string>
+    <string name="call_screen_unavailable">此裝置不支援來電篩選角色</string>
+    <string name="call_screen_on">來電篩選已經啟用了</string>
+    <string name="btn_notif_access">5. 開啟通知存取（偵測詐騙簡訊）</string>
+    <string name="btn_language">🌐 Switch to English</string>
+    <string name="btn_pet">🐾 更換寵物</string>
+    <string name="btn_stay">📍 定住寵物</string>
+    <string name="btn_wander">🚶 讓寵物走動</string>
+    <string name="pet_tabby">美國短毛貓（預設）</string>
+    <string name="pet_wolf">小狼</string>
+    <string name="pet_photo">📷 從照片建立寵物</string>
+    <string name="pet_photo_clear">↩ 恢復預設</string>
+    <string name="status_ready">懸浮權限：已開啟 ✅\n按「派出守護貓」，牠就會在桌面上巡邏。</string>
+    <string name="status_no_perm">懸浮權限：尚未開啟 ❌\n請先按「開啟懸浮權限」允許本 App 顯示在其他應用程式上層。</string>
+    <string name="toast_photo_done">已套用！寵物換上新造型</string>
+    <string name="toast_photo_fail">失敗：%1$s</string>
+    <string name="toast_photo_processing">處理中…</string>
+    <string name="toast_back_default">已恢復預設</string>
+
+    <!-- 對話 -->
+    <string name="dlg_greet_morning">早安！我會幫你看著手機的，有我在放心。</string>
+    <string name="dlg_greet_afternoon">午安！今天手機很乖，沒有壞東西靠近。</string>
+    <string name="dlg_greet_evening">晚安！睡前我再巡邏一次，你安心睡。</string>
+    <string name="dlg_tap_1">怎麼啦？我在巡邏呢。</string>
+    <string name="dlg_tap_2">有我在，詐騙電話別想進來！</string>
+    <string name="dlg_tap_3">我吃的是可疑 App，不是飼料喔。</string>
+    <string name="dlg_scan_clean">掃描完成！目前沒有可疑的 App，很乾淨。</string>
+    <string name="dlg_scan_found">發現 %1$d 個可疑 App！我幫你盯著了。</string>
+    <string name="dlg_tip_1">防詐小知識：檢察官不會打電話叫你匯款。</string>
+    <string name="dlg_tip_2">防詐小知識：來路不明的連結不要點，先拿給我看！</string>
+    <string name="dlg_tip_3">防詐小知識：手電筒 App 跟你要通訊錄？直接刪掉。</string>
+    <string name="dlg_tip_4">防詐小知識：說你中獎但要先付錢的，都是騙人的。</string>
+
+    <!-- 告警（白話） -->
+    <string name="alert_app_risky">⚠️「%1$s」這個 App 有點可疑，跟系統要了不該要的權限（%2$s），我幫你盯著了。</string>
+    <string name="alert_call_blocked">⚠️ 剛擋掉一通可疑電話（%1$s），千萬別回撥！</string>
+    <string name="alert_sms_scam">⚠️ 這封簡訊很像詐騙！別點裡面的連結，也別匯款。</string>
+    <string name="alert_url_risky">⚠️ 這個連結很可疑，別在上面輸入帳號密碼！</string>
+    <string name="alert_url_ok">這個連結看起來沒問題，但還是小心一點喔。</string>
+    <string name="alert_wifi_open">⚠️ 你連上開放 Wi-Fi 了，別在這裡登入銀行或付錢！</string>
+
+    <!-- 權限白話對照 -->
+    <string name="perm_SEND_SMS">傳送簡訊</string>
+    <string name="perm_RECEIVE_SMS">讀取簡訊</string>
+    <string name="perm_READ_SMS">讀取簡訊</string>
+    <string name="perm_READ_CONTACTS">通訊錄</string>
+    <string name="perm_READ_CALL_LOG">通話紀錄</string>
+    <string name="perm_READ_PHONE_STATE">手機狀態</string>
+    <string name="perm_RECORD_AUDIO">麥克風</string>
+    <string name="perm_CAMERA">相機</string>
+    <string name="perm_ACCESS_FINE_LOCATION">精確位置</string>
+    <string name="perm_ACCESS_COARSE_LOCATION">大概位置</string>
+    <string name="perm_READ_EXTERNAL_STORAGE">手機檔案</string>
+    <string name="perm_CALL_PHONE">撥打電話</string>
+
+    <!-- AI 智慧解釋（hackathon opt-in，預設關） -->
+    <string name="ai_title">AI 智慧解釋</string>
+    <string name="ai_desc">用雲端 AI 把告警翻成白話（需網路）</string>
+    <string name="ai_switch">開啟 AI 智慧解釋</string>
+    <string name="ai_status_off">狀態：未啟用</string>
+    <string name="ai_status_on">狀態：已啟用</string>
+    <string name="ai_status_no_key">狀態：未啟用（尚未輸入 key）</string>
+    <string name="ai_status_key_error">狀態：已啟用，但金鑰讀取失敗，請重新輸入</string>
+    <string name="ai_privacy_title">這些資料會離開你的手機</string>
+    <string name="ai_privacy_body">開啟後，只有「當則告警的事實」（例如哪個 App 被標記、哪條連結可疑）或你問貓的問題會傳給 Meta 的 AI 來產生白話解釋。語音輸入時，錄音會傳給 Meta 的 AI 轉成文字，不會存檔。通訊錄、照片、簡訊全文不會上傳。預設關閉，隨時可關。</string>
+    <string name="ai_privacy_ok">我了解，繼續</string>
+    <string name="ai_privacy_cancel">取消</string>
+    <string name="ai_key_hint">貼上 Meta Model API key（LLM_ 開頭，按量付費，demo 用量幾塊錢）</string>
+    <string name="ai_key_save">儲存 key</string>
+    <string name="ai_key_saved">key 已儲存</string>
+    <string name="ai_key_saved_plain">已儲存（未加密：裝置金鑰庫不可用）</string>
+    <string name="ai_key_clear">清除 key</string>
+    <string name="ai_key_cleared">key 已清除</string>
+    <string name="ai_need_key">請先輸入 key</string>
+    <string name="ai_tap_hint">🐱 點我看 AI 白話解釋</string>
+    <string name="ai_thinking">思考中…</string>
+    <string name="ai_explain">AI 解釋</string>
+    <string name="chat_title">跟守護貓聊天</string>
+    <string name="chat_hint">跟貓說點什麼…</string>
+    <string name="chat_send">發送</string>
+    <string name="chat_mic">🎤</string>
+    <string name="chat_mic_stop">■ 停止錄音</string>
+    <string name="chat_greeting">喵～想聊什麼都可以，問我防詐問題也可以喔。</string>
+    <string name="chat_you">你：%1$s</string>
+    <string name="chat_cat">貓：%1$s</string>
+    <string name="chat_mic_no_perm">請先在主畫面開啟麥克風權限</string>
+    <string name="btn_mic">6. 開啟麥克風權限（語音聊天）</string>
+    <string name="btn_mic_on">6. 開啟麥克風權限（語音聊天）— 已開啟</string>
+    <string name="mic_on">麥克風權限已開啟</string>
+    <string name="mic_denied">麥克風權限被拒絕，請到系統設定開啟</string>
+
+    <!-- 黑名單 -->
+    <string name="block_title">來電黑名單</string>
+    <string name="block_hint">輸入可疑號碼</string>
+    <string name="btn_block_add">加入</string>
+    <string name="block_added">已加入黑名單</string>
+    <string name="block_empty">黑名單是空的</string>
+</resources>

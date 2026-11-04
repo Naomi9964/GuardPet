@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GuardPet" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">#FF8A3D</item>
+        <item name="android:colorPrimaryDark">#E56F1F</item>
+        <item name="android:colorAccent">#FF8A3D</item>
+    </style>
+</resources>

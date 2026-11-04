@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GuardPet</string>
+    <string name="main_title">🐱 GuardPet</string>
+    <string name="main_desc">Your phone guardian: auto-scans risky apps, blocks scam calls, detects scam texts, and alerts you instantly.</string>
+    <string name="btn_overlay">1. Enable overlay permission</string>
+    <string name="btn_start">2. Deploy guard cat</string>
+    <string name="btn_stop">3. Recall guard cat</string>
+    <string name="btn_call_screen">4. Set as call screener (block scam calls)</string>
+    <string name="btn_call_screen_on">4. Set as call screener (block scam calls) — on</string>
+    <string name="call_screen_unavailable">Call screening role is not supported on this device</string>
+    <string name="call_screen_on">Call screening is already on</string>
+    <string name="btn_notif_access">5. Enable notification access (detect scam texts)</string>
+    <string name="btn_language">🌐 切換成中文</string>
+    <string name="btn_pet">🐾 Change pet</string>
+    <string name="btn_stay">📍 Keep pet still</string>
+    <string name="btn_wander">🚶 Let pet wander</string>
+    <string name="pet_tabby">American Shorthair (default)</string>
+    <string name="pet_wolf">Little wolf</string>
+    <string name="pet_photo">📷 Create pet from photo</string>
+    <string name="pet_photo_clear">↩ Back to default</string>
+    <string name="status_ready">Overlay permission: granted ✅\nTap "Deploy guard cat" and it will patrol your screen.</string>
+    <string name="status_no_perm">Overlay permission: not granted ❌\nPlease enable "Display over other apps" for this app first.</string>
+    <string name="toast_photo_done">New look applied!</string>
+    <string name="toast_photo_fail">Failed: %1$s</string>
+    <string name="toast_photo_processing">Processing…</string>
+    <string name="toast_back_default">Back to default</string>
+
+    <!-- Dialogue -->
+    <string name="dlg_greet_morning">Good morning! I\'ll watch your phone today. You\'re safe with me.</string>
+    <string name="dlg_greet_afternoon">Good afternoon! Your phone\'s been well-behaved today, nothing shady around.</string>
+    <string name="dlg_greet_evening">Good night! I\'ll do one more patrol round before you sleep.</string>
+    <string name="dlg_tap_1">Yes? I\'m on patrol.</string>
+    <string name="dlg_tap_2">With me around, scam calls don\'t stand a chance!</string>
+    <string name="dlg_tap_3">I eat suspicious apps, not kibble.</string>
+    <string name="dlg_scan_clean">Scan complete! No suspicious apps found. All clean.</string>
+    <string name="dlg_scan_found">Found %1$d suspicious apps! I\'m keeping an eye on them.</string>
+    <string name="dlg_tip_1">Anti-scam tip: real officials never call asking you to wire money.</string>
+    <string name="dlg_tip_2">Anti-scam tip: don\'t tap links from strangers — show them to me first!</string>
+    <string name="dlg_tip_3">Anti-scam tip: a flashlight app asking for your contacts? Delete it.</string>
+    <string name="dlg_tip_4">Anti-scam tip: "you won a prize but pay first" is always a lie.</string>
+
+    <!-- Alerts (plain language) -->
+    <string name="alert_app_risky">⚠️ "%1$s" looks suspicious — it asked for permissions it shouldn\'t need (%2$s). I\'m watching it.</string>
+    <string name="alert_call_blocked">⚠️ Just blocked a suspicious call (%1$s). Don\'t call back!</string>
+    <string name="alert_sms_scam">⚠️ This text looks like a scam! Don\'t tap any links or send money.</string>
+    <string name="alert_url_risky">⚠️ This link looks shady — don\'t enter any passwords on it!</string>
+    <string name="alert_url_ok">This link looks fine, but stay cautious.</string>
+    <string name="alert_wifi_open">⚠️ You\'re on an open Wi-Fi — don\'t log into your bank or pay for things here!</string>
+
+    <!-- Permission plain names -->
+    <string name="perm_SEND_SMS">send texts</string>
+    <string name="perm_RECEIVE_SMS">read texts</string>
+    <string name="perm_READ_SMS">read texts</string>
+    <string name="perm_READ_CONTACTS">contacts</string>
+    <string name="perm_READ_CALL_LOG">call history</string>
+    <string name="perm_READ_PHONE_STATE">phone state</string>
+    <string name="perm_RECORD_AUDIO">microphone</string>
+    <string name="perm_CAMERA">camera</string>
+    <string name="perm_ACCESS_FINE_LOCATION">precise location</string>
+    <string name="perm_ACCESS_COARSE_LOCATION">approx. location</string>
+    <string name="perm_READ_EXTERNAL_STORAGE">files</string>
+    <string name="perm_CALL_PHONE">make calls</string>
+
+    <!-- AI explanations (hackathon opt-in, off by default) -->
+    <string name="ai_title">AI explanations</string>
+    <string name="ai_desc">Cloud AI turns alerts into plain language (needs internet)</string>
+    <string name="ai_switch">Enable AI explanations</string>
+    <string name="ai_status_off">Status: off</string>
+    <string name="ai_status_on">Status: on</string>
+    <string name="ai_status_no_key">Status: off (no key yet)</string>
+    <string name="ai_status_key_error">Status: on, but the key is unreadable — please re-enter it</string>
+    <string name="ai_privacy_title">What leaves your phone</string>
+    <string name="ai_privacy_body">When on, only the facts of the current alert (e.g. which app was flagged, which link looks suspicious) or your question to the cat are sent to Meta\'s AI to generate a plain-language explanation. Voice input sends the recording to Meta\'s AI for transcription; no audio file is kept. Your contacts, photos, and full message texts never leave the phone. Off by default; you can turn it off anytime.</string>
+    <string name="ai_privacy_ok">I understand, continue</string>
+    <string name="ai_privacy_cancel">Cancel</string>
+    <string name="ai_key_hint">Paste your Meta Model API key (starts with LLM_, pay-per-use, demo usage costs pennies)</string>
+    <string name="ai_key_save">Save key</string>
+    <string name="ai_key_saved">Key saved</string>
+    <string name="ai_key_saved_plain">Saved (unencrypted: device keystore unavailable)</string>
+    <string name="ai_key_clear">Clear key</string>
+    <string name="ai_key_cleared">Key cleared</string>
+    <string name="ai_need_key">Enter your key first</string>
+    <string name="ai_tap_hint">🐱 Tap me for a plain-language AI explanation</string>
+    <string name="ai_thinking">Thinking…</string>
+    <string name="ai_explain">AI explanation</string>
+    <string name="chat_title">Chat with GuardPet</string>
+    <string name="chat_hint">Say something to the cat…</string>
+    <string name="chat_send">Send</string>
+    <string name="chat_mic">🎤</string>
+    <string name="chat_mic_stop">■ Stop recording</string>
+    <string name="chat_greeting">Meow! Chat about anything, or ask me about scams.</string>
+    <string name="chat_you">You: %1$s</string>
+    <string name="chat_cat">Cat: %1$s</string>
+    <string name="chat_mic_no_perm">Enable microphone permission on the main screen first</string>
+    <string name="btn_mic">6. Enable microphone (voice chat)</string>
+    <string name="btn_mic_on">6. Enable microphone (voice chat) — on</string>
+    <string name="mic_on">Microphone permission is on</string>
+    <string name="mic_denied">Microphone permission denied — enable it in system settings</string>
+
+    <!-- Blocklist -->
+    <string name="block_title">Call blocklist</string>
+    <string name="block_hint">Enter suspicious number</string>
+    <string name="btn_block_add">Add</string>
+    <string name="block_added">Added to blocklist</string>
+    <string name="block_empty">Blocklist is empty</string>
+</resources>
